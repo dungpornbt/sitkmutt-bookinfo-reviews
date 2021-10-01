@@ -1,1 +1,0 @@
-# sitkmutt-bookinfo-reviews
