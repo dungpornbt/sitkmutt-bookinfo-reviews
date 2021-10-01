@@ -5,10 +5,10 @@ Review service has been developed on Java version 7.2
 ## How to run with Docker
 
 ```bash
-# Build Docker Image for rating service
+# Build Docker Image for review service
 docker build -t reviews .
 
-# Run ratings service on port 8082
+# Run reviews service on port 8082
 docker run -d --name reviews -p 8082:9080
 ```
 
