@@ -1,6 +1,6 @@
 services:
   reviews:
     build: .
-    image: ghcr.io/dungpornbt/bookinfo-reviews:dev
+    image: {{ .Values.reviews.image }}:{{ .Values.reviews.tag }}
     ports:
       - "8082:9080"
